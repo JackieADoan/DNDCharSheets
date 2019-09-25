@@ -77,8 +77,8 @@ bool shield = true;
 //Armor Class
 int arc = acc(amr, arw, shield);
 //Spell Slots
-int slot1=3;
-int slot2=0;
+int slot1=4;
+int slot2=2;
 int slot3=0;
 int slot4=0;
 int slot5=0;
@@ -469,30 +469,65 @@ void slot_one(){
 	cout << "Components: V,S,M(Parchement with Holy Text)\n\n\t";
 	cout << "A shimmering appears and surrounds a creature of your choice within\n\t";
 	cout << "range, granting it a +2 bonus to AC for the Duration\n";
-
+	line();
+	cout << "Purify Food and Drink:\n\t";
+	cout << "Casting Time: 1 Action\t\t\t";
+	cout << "Range: 10 Feet\n\t";
+	cout << "Duration: Instantaneous\t\t\t";
+	cout << "Components: V,S\n\n\t";
+	cout << "All nonmagical food and drink within a 5-foot-radius sphere\n\t";
+	cout << "Centered on a point of your choice within range is purified\n\t";
+	cout << "And rendered free of poison and disease.\n";
 }
-//Level Spells
+//Level 2 Spells
 void slot_two(){
+	cout << "Heat Metal:\n\t";
+	cout << "Casting Time: 1 Action\t\t\t";
+	cout << "Range: 60 Feet\n\t";
+	cout << "Duration: Concentration, 1 Minute\t";
+	cout << "Components: V,S,M(Iron and Flame)\n\n\t";
+	cout << "Choose a manufactured metal object, such as metal weaons or armor,\n\t";
+	cout << "That you can see within range. You cause the object to glow red hot.\n\t";
+	cout << "Any creature in physical contact with the object takes 2d8 fire damage\n\t";
+	cout << "when you cast the spell. Until the spell ends, you can use a bonus action\n\t";
+	cout << "on each of your subsequent turns to cuase this damage again.\n\t";
+	cout << "If a creature is holding or wearing the object and takes damage from it,\n\t";
+	cout << "The creature must make a Constitution saving throw or drop the object if\n\t";
+	cout << "It can. If it doesnt drop the object, it has disadvantage on attack rolls\n\t";
+	cout << "And ability checks until the start of your turn.\n\t";
+	cout << "At higher levels. When you cast thist spell using a spell slot of 3rd level\n\t";
+	cout << "or  higher, the damage increases by 1d8 for each slot level above 2nd\n";
+	line();
+	cout << "Magic Weapon:\n\t";
+	cout << "Casting Time: 1 Bonus Action\t\t";
+	cout << "Range: Touch\n\t";
+	cout << "Duration: Concentration, 1 Hour\t";
+	cout << "Components: V,S\n\n\t";
+	cout << "You touch a nonmagical weapon. Until the spell ends that weapon becomes a\n\t";
+	cout << "Magic weapon with a +1 bonus to attack rolls and damage rolls.\n\t";
+	cout << "At Higher Levels. When you cast this spell using a spell slot of 4th level\n\t";
+	cout << "or higher, the bonus increases to +2. When you use a spell slot of 6th level\n\t";
+	cout << "or higher, the bonus increases to +3.\n";
 }
-//Level Spells
+//Level 3 Spells
 void slot_three(){
 }
-//Level Spells
+//Level 4 Spells
 void slot_four(){
 }
-//Level Spells
+//Level 5 Spells
 void slot_five(){
 }
-//Level Spells
+//Level 6 Spells
 void slot_six(){
 }
-//Level Spells
+//Level 7 Spells
 void slot_seven(){
 }
-//Level Spells
+//Level 8 Spells
 void slot_eight(){
 }
-//Level Spells
+//Level 9 Spells
 void slot_nine(){
 }
 
